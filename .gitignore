@@ -35,3 +35,6 @@ typings/
 
 # gitignore File
 !.gitignore
+
+# App Service Deployment
+!.deployment
