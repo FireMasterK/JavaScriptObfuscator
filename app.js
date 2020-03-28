@@ -61,4 +61,4 @@ app.post('/obfuscate', (req, res) => {
     res.send(code);
 });
 
-app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))
+module.exports = app;
