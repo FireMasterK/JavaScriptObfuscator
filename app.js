@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send("JavaScript Obfuscator by Kavin");
+    res.send("Welcome to JavaScript Obfuscator");
 });
 
 app.post('/obfuscate', (req, res) => {
