@@ -23,14 +23,14 @@ app.post('/obfuscate', (req, res) => {
         {
             compact: true,
             controlFlowFlattening: true,
-            controlFlowFlatteningThreshold: 1.0,
-            // deadCodeInjection: false,
-            // deadCodeInjectionThreshold: 0.4,
+            controlFlowFlatteningThreshold: 0.8,
+            deadCodeInjection: true,
+            deadCodeInjectionThreshold: 0.4,
             debugProtection: true,
             debugProtectionInterval: true,
             disableConsoleOutput: true,
             domainLock: req.body.domains,
-            identifierNamesGenerator: 'mangled',
+            identifierNamesGenerator: 'hexadecimal',
             identifiersDictionary: [],
             identifiersPrefix: '',
             inputFileName: '',
@@ -48,11 +48,11 @@ app.post('/obfuscate', (req, res) => {
             splitStrings: true,
             splitStringsChunkLength: 5,
             stringArray: true,
-            stringArrayEncoding: 'rc4',
+            stringArrayEncoding: 'base64',
             stringArrayThreshold: 0.75,
             target: 'browser-no-eval',
             transformObjectKeys: true,
-            unicodeEscapeSequence: false
+            unicodeEscapeSequence: true
         }
     );
 
