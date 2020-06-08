@@ -11,7 +11,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "javascript-obfuscator": "^1.0.0",
+    "javascript-obfuscator": "^1.1.0",
     "supertest": "^4.0.2"
   }
 }
