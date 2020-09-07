@@ -10,8 +10,7 @@ describe("POST /obfuscate", function(){
       .send({ code: "console.log('hello world!');", domains: [] })
       .expect(200)
       .end(function(err, res){
-        if (err) done(err);
-        done();
+        if (err) done(err); else done();
       });
   });
 });
