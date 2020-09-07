@@ -9,7 +9,7 @@ jobs:
       - checkout
       - node/install-packages
       - run: sudo npm install -g mocha
-      - node/test
+      - run: npm run test
 workflows:
     build-and-test:
       jobs:
