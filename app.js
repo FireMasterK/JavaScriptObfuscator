@@ -5,8 +5,6 @@ const bodyParser = require('body-parser');
 
 var JavaScriptObfuscator = require('javascript-obfuscator');
 
-const port = process.env.PORT || 3000;
-
 app.use(bodyParser.urlencoded({
     extended: true
 }));

@@ -36,5 +36,8 @@ typings/
 # gitignore File
 !.gitignore
 
+# dockerignore FIle
+!.dockerignore
+
 # App Service Deployment
 !.deployment
