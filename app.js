@@ -48,7 +48,7 @@ app.post('/obfuscate', (req, res) => {
             splitStrings: true,
             splitStringsChunkLength: 5,
             stringArray: true,
-            stringArrayEncoding: 'base64',
+            stringArrayEncoding: ['rc4', 'base64'],
             stringArrayThreshold: 0.75,
             target: 'browser-no-eval',
             transformObjectKeys: true,
