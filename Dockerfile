@@ -20,8 +20,6 @@ COPY --from=dependencies /app/node_modules ./node_modules
 # copy app sources
 COPY . .
 
-ENV LISTEN=0.0.0.0
-
 # expose port and define CMD
 EXPOSE 3000
-CMD npm run start
+CMD export LISTEN=0.0.0.0 && npm run start
