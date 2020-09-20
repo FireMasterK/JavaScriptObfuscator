@@ -4,7 +4,7 @@
 
 ### Docker
 
-Run `docker run -e LISTEN=0.0.0.0 -p 3000:3000 1337kavin/javascript-obfuscator:latest`
+Run `docker run -p 3000:3000 1337kavin/javascript-obfuscator:latest`
 
 ### Manually
 
