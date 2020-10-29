@@ -12,6 +12,6 @@
     "javascript-obfuscator": "^2.6.3"
   },
   "devDependencies": {
-    "supertest": "^5.0.0"
+    "supertest": "^6.0.0"
   }
 }
