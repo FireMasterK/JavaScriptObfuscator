@@ -53,7 +53,10 @@ app.post('/obfuscate', (req, res) => {
             target: 'browser-no-eval',
             transformObjectKeys: true,
             unicodeEscapeSequence: true,
-            stringArrayWrappersType: 'function'
+            stringArrayWrappersType: 'function',
+            stringArrayWrappersCount: 5,
+            stringArrayWrappersChainedCalls: true,
+            stringArrayWrappersParametersMaxCount: 5
         }
     );
 
