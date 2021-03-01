@@ -9,7 +9,7 @@
   "dependencies": {
     "acorn": "^8.0.5",
     "express": "^4.17.1",
-    "javascript-obfuscator": "^2.10.4"
+    "javascript-obfuscator": "^2.10.7"
   },
   "devDependencies": {
     "supertest": "^6.1.3"
