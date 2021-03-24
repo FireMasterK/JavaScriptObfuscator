@@ -1,0 +1,6 @@
+apiVersion: beta/v1
+deploy:
+  docker:
+    file: Dockerfile
+    service: service
+    port: 3000
