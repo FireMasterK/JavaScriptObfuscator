@@ -7,7 +7,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "acorn": "^8.4.0",
+    "acorn": "^8.4.1",
     "express": "^4.17.1",
     "javascript-obfuscator": "^2.15.5"
   },
